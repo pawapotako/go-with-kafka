@@ -1,0 +1,15 @@
+app:
+    port: 8081
+
+db:
+    driver: mysql
+    host: localhost
+    port: 3307
+    database: mygokafka
+    username: root
+    password: root
+
+kafka:
+    host: localhost
+    port: 9092
+    topic: user
